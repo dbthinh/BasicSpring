@@ -10,11 +10,12 @@ public class DragonSinger implements Singer {
     }
 
     public void singBeforeQuest() {
-        printStream.print("Prepare the weapon to kill the dragon");
+
+        printStream.print("Prepare the weapon to kill the dragon \n");
     }
 
     public void singAfterQuest() {
-        printStream.print("The brave knight killed the dragon");
+        printStream.print("The brave knight killed the dragon \n");
 
     }
 }

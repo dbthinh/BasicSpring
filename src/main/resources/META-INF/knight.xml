@@ -23,7 +23,6 @@
             <aop:pointcut id="doQuest" expression="execution(* *.doQuest(..))"/>
             <aop:before method="singBeforeQuest" pointcut-ref="doQuest"/>
             <aop:after method="singAfterQuest" pointcut-ref="doQuest"/>
-
         </aop:aspect>
     </aop:config>
 

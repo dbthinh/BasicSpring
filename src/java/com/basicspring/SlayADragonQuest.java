@@ -10,6 +10,6 @@ public class SlayADragonQuest implements Quest {
     }
 
     public void focus() {
-        printStream.print("You must kill a blue dragon");
+        printStream.print("You must kill a blue dragon \n");
     }
 }
